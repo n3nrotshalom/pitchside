@@ -1,0 +1,152 @@
+body {
+margin: 0;
+font-family: 'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif;
+color: #0B1F33;
+background: #F6F9F9;
+}
+a { 
+    text-decoration: none;
+ }
+
+.log-in {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 24px;
+padding: 48px 24px;
+box-sizing: border-box;
+}
+
+.sign-up {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 24px;
+padding: 48px 24px;
+box-sizing: border-box;
+}
+
+.logo { 
+    color: #0B1F33;
+     font-size: 26px;
+      font-weight: 800;
+     }
+.logo span { 
+    color: #14B88F; 
+}
+
+.form-card {
+width: 100%;
+max-width: 440px;
+box-sizing: border-box;
+background: #fff;
+border: 1px solid #DCE6E6;
+border-radius: 20px;
+padding: 36px;
+}
+.form-card h2 { 
+    font-size: 28px; 
+    font-weight: 800; 
+    margin: 0; 
+}
+.form-sub { 
+    font-size: 15px; 
+    line-height: 1.5; 
+    color: #4B5B6B; 
+    margin: 8px 0 24px; 
+}
+.switch {
+display: flex;
+background: #E6EEEE;
+border-radius: 12px;
+padding: 4px;
+margin-bottom: 26px;
+}
+.switch a {
+flex: 1;
+text-align: center;
+padding: 10px;
+border-radius: 9px;
+font-size: 14px;
+font-weight: 700;
+color: #4B5B6B;
+}
+.switch a.on { 
+    background: #fff; 
+    color: #0B1F33; 
+}
+.field { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 6px; 
+    margin-bottom: 16px;
+ }
+.field label { 
+    font-size: 13px; 
+    font-weight: 700; 
+}
+.field input {
+font: Arial, sans-serif;
+font-size: 15px;
+padding: 12px 14px;
+border: 1px solid #AFC3DD;
+border-radius: 10px;
+color: #0B1F33;
+}
+.field input:focus { 
+    outline: 2px solid #2DD4AA; 
+    border-color: #2DD4AA; 
+}
+.field small { 
+    font-size: 12px; 
+    color: #4B5B6B; 
+}
+
+.row-between {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 14px;
+margin: 4px 0 22px;
+}
+.check {
+display: flex;
+gap: 10px;
+align-items: flex-start;
+font-size: 14px;
+color: #4B5B6B;
+line-height: 1.4;
+margin: 4px 0 22px;
+}
+.check input { 
+    margin-top: 3px; 
+}
+.link { 
+    color: #0B6B55; 
+    font-weight: 700; 
+}
+.btn-main {
+display: block;
+width: 100%;
+box-sizing: border-box;
+border: 0;
+font: inherit;
+font-size: 16px;
+font-weight: 700;
+padding: 14px;
+border-radius: 12px;
+background: #2DD4AA;
+color: #06231E;
+cursor: pointer;
+margin-top: 12px;
+}
+.swap { 
+    text-align: center; 
+    font-size: 14px; 
+    color: #4B5B6B; 
+    margin: 22px 0 0; 
+}

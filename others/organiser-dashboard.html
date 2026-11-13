@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>organiser-dashboard</title>
+    <link rel="stylesheet" href="organiser-dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=plus+jakarta+sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <a href="../index.html" class="logo">Pitch<span>side</span></a>
+            <nav class="side-links">
+                <a href="organiser-dashboard.html" class="active">Dashboard</a>
+                <a href="my-tournaments.html">My Tournaments</a>
+                <a href="Results.html">Results</a>
+                <a href="Fixtures.html">Fixtures</a>
+                <a href="standings.html">Standings</a>
+                <a href="statistics.html">Statistics</a>
+                <a href="settings.html">Setting</a>
+            </nav>
+
+            <div class="user-box">
+                <b>organiser</b>
+                <span>Signed in</span>
+            </div>
+        </aside>
+
+        <main class="content">
+<div class="page-head">
+<div>
+<h1>Welcome, Organizer</h1>
+<p>Set up your first tournament in a few steps.</p>
+</div>
+<a href="create-tournament.html" class="btn btn-teal">+ Create Tournament</a>
+</div>
+
+<div class="card">
+<h2>Getting started</h2>
+
+<div class="step">
+<span class="step-number">1</span>
+<div class="step-text">
+<b>Create your tournament</b>
+<p>Name it, pick a format, set the dates and choose who can view it.</p>
+</div>
+<a href="create-tournament.html" class="btn btn-dark">Create Tournament</a>
+</div>
+
+<div class="step">
+<span class="step-number">2</span>
+<div class="step-text">
+<b>Add teams</b>
+<p>Enter each team's name and coach. You can also invite assistant admins to help submit results.</p>
+</div>
+</div>
+
+<div class="step">
+<span class="step-number">3</span>
+<div class="step-text">
+<b>Add players</b>
+<p>Build each squad with names, shirt numbers and positions, one by one or by uploading a list.</p>
+</div>
+</div>
+
+<div class="step">
+<span class="step-number">4</span>
+<div class="step-text">
+<b>Generate fixtures</b>
+<p>Pitchside creates the match schedule for you. You can still change dates and venues.</p>
+</div>
+</div>
+
+<div class="step">
+<span class="step-number">5</span>
+<div class="step-text">
+<b>Record and approve results</b>
+<p>Assistant admins submit match results. You approve them before they appear publicly.</p>
+</div>
+</div>
+</div>
+
+<div class="two-col">
+
+<div class="card">
+<h2>My Tournaments</h2>
+<div class="empty">
+<b>No tournaments yet</b>
+Tournaments you create will appear here.
+<br>
+<a href="create-tournament.html" class="btn btn-teal">+ Create Tournament</a>
+</div>
+</div>
+
+<div class="card">
+<h2>Results awaiting approval</h2>
+<div class="empty">
+Nothing to approve right now. When an assistant admin submits a match result, it will show up here.
+</div>
+
+<p class="example-label">EXAMPLE OF A SUBMITTED RESULT</p>
+<div class="example">
+<div>
+<b>Team A 2 – 1 Team B</b>
+<p>Submitted by an assistant admin</p>
+</div>
+<div class="btns">
+<a href="#" class="btn btn-teal">Approve</a>
+<a href="#" class="btn btn-line">Reject</a>
+</div>
+</div>
+</div>
+
+</div>
+
+        </main>
+    </div>
+    
+</body>
+</html>
